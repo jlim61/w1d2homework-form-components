@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    height: 700px;
+    display: flex; /* The default of this will put content in a column*/
+    /* flex-direction: row;  */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    column-gap: 10px;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.card {
+    max-width: 200px;
+    border: 2px solid hotpink;
+    padding: 20px;
+}
